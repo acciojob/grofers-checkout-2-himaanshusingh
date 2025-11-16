@@ -6,6 +6,7 @@ tBody.append(newRow);
 const newData1 = document.createElement("td");
 const button = document.createElement("button");
 button.innerText = "Total";
+button.style.cursor = "pointer"
 newData1.appendChild(button);
 
 const newData2 = document.createElement("td");
